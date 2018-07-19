@@ -1,0 +1,820 @@
+// code cua quang
+.quang{
+	.quang1{
+		.menuquang{
+			width: auto;
+			background-color: rgba(99, 158, 219, 0.8);
+			height: 35px;
+			.col-sm-6{
+				color: white;
+				i.fa-clock{
+					float: left;
+					padding-left: 12%;
+					margin-top: 1%;
+				}
+				i.fa-angle-right{
+					float: left;
+					padding-left: 4%;
+					margin-top: 1%;
+				}
+				span{
+					float: left;
+					margin-left: 3%;
+					margin-top: 0.4%;
+				}
+				p{
+					float: left;
+					padding-left: 1%;
+					margin-top: 0.5%;
+				}
+			}
+			.col-6{
+				color: white;
+					a{
+						text-decoration: none;
+						color: white;
+						&:hover{
+							color: red;
+						}
+					}
+					i.fa-envelope{
+						float: left;
+						margin-top: 1%;
+						padding-left: 12%;
+					}
+					i.fa-phone{
+						float: left;
+						margin-top: 1%;
+						padding-left: 4%;
+					}
+					p{
+						float: left;
+						margin-top: 0.5%;
+						padding-left: 1%;
+					}
+					span{
+						float: left;
+						margin-left: 3%;
+						margin-top: 0.4%;
+
+					}
+					i.fa-facebook-f, i.fa-google-plus-g, i.fa-twitch, i.fa-xing, i.fa-seedling{
+						margin-left: 2%;
+						margin-top: 1%;
+					}
+
+			}
+		}
+	}
+	.menuquang1{
+		margin-top: 2.5%;
+		width: 100%;
+		background-color: rgba(255, 255, 255, 0.8);
+		a.navbar-brand{
+			width: 30%;
+			margin-left: 5%;
+			h3{
+				font-weight: 700;
+				span{
+					color:#649fd6;
+				}				
+			}
+			small{
+				margin-top: 3%;
+				padding-left: 1%;
+				font-weight: 200;
+			}
+		}
+		.collapse{
+			width: 70%;
+			ul.navbar-nav{
+				margin-left: 8%;
+				li.nav-item{
+					a.nav-link{
+						width: 100%;
+						margin-left: 20px;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+	}
+	// phan moi
+	
+	//Ket thuc
+
+	//PHAN MOI
+		.box4quang{
+		    background-image: url(photo/bg-1.jpg);
+		    background-size: 100% 1011px;
+			width: 100%;
+			height: 1011px;
+			h1.klo{
+				width: 20%;
+				padding-top: 17%;
+				margin-left: 13%;
+				font-weight: 600;
+				color: gray;
+				border-bottom-style: double;
+				text-align: center;
+
+				
+			}
+			h1.display-1{
+				padding-left: 2%;
+				font-weight: 600;
+				color:#f47caf;
+				span{
+					color:#639edb ;
+				}
+			}
+			p{
+				margin-left: 12%;
+				font-weight: 500;
+				color: #91a6b9;
+			}
+			button{
+				background: none;
+				border: 1px solid #639edb;
+				color:white;
+				font-weight: 800;
+				margin-left: 14%;
+				margin-bottom: 15%;
+			}
+			.col-sm-4{
+				width: 100%;
+				height: 330px;
+				background-color: rgba(240, 122, 174, 0.8);
+				.box4q1{
+					width: 90%;
+					height: 90%;
+					margin: 4% 5% 5% 5%;
+					
+					color:white;
+					i.fa-android{
+						margin-left: 45%;
+						margin-top: 9%;
+					}
+					h3{
+						margin-top: 2%;
+						text-align: center;
+					}
+					p{
+						width: 80%;
+						margin-left: 10%;
+						text-align: center;
+						color:white;
+					}
+					a{
+						text-decoration: none;
+						color: white;
+					}
+				}
+				&:hover .box4q1{
+					border: 2px solid white;
+				}
+				&:hover{
+					background-color: rgba(245, 132, 178, 0.5);
+				}
+			}
+		}
+	//Ket thuc phan moi
+
+	//box5
+	.box5quang{
+		width: 100%;
+		height: 368px;
+		h3{
+			padding-top: 5%;
+			text-align: center;
+			font-weight: 400;
+		}
+		a{
+			text-align: center;
+
+		}
+		
+	}
+	//ket thuc box5
+.carousel{
+	margin-top: -14%;
+	a.carousel-control-prev{
+		background-color: rgba(149, 188, 230, 0.9);
+		width: 40px;
+		height: 40px;
+		margin-top: -7%;
+		margin-left: 85%;
+		border-radius: 2px
+	}
+	a.carousel-control-next{
+		background-color: rgba(149, 188, 230, 0.9);
+		width: 40px;
+		height: 40px;
+		margin-top: -7%;
+		margin-right: 8.5%;
+		border-radius: 2px
+	}
+	.carousel-inner{
+		.carousel-item{
+			img.box5q1{
+				float: left;
+				width: 25%;
+				height: 200px;
+			}
+		}
+	}
+}
+	//box6
+	.box6quang{
+		width: 100%;
+		height: 510px;
+		background: pink;
+		h3{
+			padding-top: 5%;
+		}
+		.carousel{
+			margin-top: 3%;
+			a.carousel-control-prev{
+				background-color: rgba(149, 188, 230, 0.9);
+				width: 40px;
+				height: 40px;
+				margin-top: -7.5%;
+				margin-left: 91%;
+				border-radius: 2px
+			}
+			a.carousel-control-next{
+				background-color: rgba(149, 188, 230, 0.9);
+				width: 40px;
+				height: 40px;
+				margin-top: -7.5%;
+				margin-right: 1.5%;
+				border-radius: 2px
+			}
+			.carousel-inner{
+				.carousel-item{
+					img{
+						width: 100%;
+						height: 250px;
+
+					}
+					p{
+						width: 100%;
+						height: 40px;
+						background-color: rgba(255, 255, 255, 0.3);
+						font-weight: 600;
+						line-height: 40px;
+						padding-left: 6%;
+						span{
+							margin-left: 15%;
+						}
+					}
+				}
+			}
+		}
+	}
+//Ket thuc box6
+}
+@media screen and (max-width: 480px){
+	.quang{
+		.quang1{
+		
+		}
+		.menuquang1{
+		
+		}
+		.box4quang{
+			height: 200px;
+			button{
+				display: none;
+			}
+			.col-sm-4{
+				display: none;
+				.box4q1{
+					display: none;
+				}
+			}
+		}
+		.box5quang{
+			display: none;
+		}
+		.carousel{
+			display: none;
+		}
+		.box6quang{
+			display: none;
+		}
+	}
+
+}
+@media screen and (max-width: 750px){
+	.quang{
+		.quang1{
+			width: 750px;
+			.menuquang{
+				display: none;
+			}
+		}
+		.menuquang1{
+			width: 750px;
+			background-color: none;
+			background-color: rgba(0, 0, 0, 0.8);
+			a.navbar-brand{
+				h3,small{
+					color:white;
+				}
+			}
+		
+				
+		}
+		.box4quang{
+			width: 750px;
+			height: 400px;
+			background-size: none;
+			background-image: none;
+			h1.klo{
+				display: none;
+			}
+			h1.display-1{
+				margin-top: 20%;
+				width: 100%;
+				text-align: center;
+			}
+			p{
+				margin-left: none;
+				display: none;
+			}
+			button{
+				margin-left: none;
+				color: black;
+			}
+			.col-sm-4{
+				height: 200px;
+				.box4q1{
+					i.fa-android{
+						margin-left: 38%;
+					}
+					p,a{
+						display: none;
+					}
+				}
+
+			}
+		}
+		.box5quang{
+			margin-top: -70%;
+			font-weight: 800;
+			margin-bottom: 0%;
+			padding-bottom: 0%;
+			h3{
+				font-weight: 800;
+			}
+		}
+		.carousel{
+
+				margin-top: -30%;
+				a.carousel-control-prev{
+					display: none;		
+				}
+				a.carousel-control-next{
+					margin-right: 5%;	
+				}
+			}
+		.box6quang{
+			height: 350px;
+			font-weight: 800;
+			h3{
+				font-weight: 800;
+			}
+			.carousel{
+				.carousel-inner{
+					.carousel-item{
+						img{
+							height: 150px;
+						}
+						p{
+							font-size: 8px;
+							padding-left: 1%;
+							span{
+								display: none;
+							}
+						}
+					}
+
+				}
+
+			}
+		}
+	
+
+	}
+
+}
+@media screen and (max-width: 1205px){
+	.quang{
+		.quang1{
+			.menuquang{
+				display: none;
+			}
+		}
+		.menuquang1{
+				margin-top: 0%;
+				.collapse{
+					ul.navbar-nav{
+						margin-left: 0%;
+						li.nav-item{
+							a.nav-link{
+							margin-left: 10px;
+							}
+						}
+					}					
+				}
+		}
+		.box4quang{
+			width: 1205px;
+			height: 965px;
+			background-size: 100% 1000px;
+			h1.klo{
+				width: 30%;
+				margin-left: 35%;
+			}
+			h1.display-1{
+				width: 100%;
+				text-align: center;
+			}
+			p{
+				margin-left: 38%;
+			}
+			button{
+				margin-left: 41%;
+			}
+		}
+		.carousel{
+			a.carousel-control-prev{
+
+				margin-left: 89%;
+				border-radius: 2px
+			}
+			a.carousel-control-next{
+				margin-right: 4%;
+
+			}			
+		}
+	}
+}
+// end code cua quang
+
+// code cua bao
+@media screen and (max-width: 480px){
+	
+}
+@media screen and (max-width: 750px){
+	
+}
+@media screen and (max-width: 1024px){
+	
+}
+.bao{
+	height: 1200px;
+	// background: #999;
+	.bao1{
+		float: left;
+		// background: #666;
+		height: 800px;
+		h2{
+			margin-top: 10px;
+			font-family: "times new roman";
+		}
+		.bao1-1{
+			float: left;
+			height: 180px;
+			// background: #888;
+			margin-top: 10px;
+			border-bottom: 1px solid #666666;
+			.bao1-2{
+				height: 170px;
+				float: left;
+				// background: #ccc;
+				img{
+					width: 100%;
+					height: 170px;
+				}
+				.p1{
+					font-size: 30px;
+					padding: 0;
+					margin: 0;
+					width: 100%;
+					text-align: center;
+				}
+				.p2{
+					width: 60%;
+					text-align: center;
+					margin-left: 20%;
+					border-bottom: 2px solid red;
+				}
+				h2{
+					font-family: "times new roman";
+					color: #c40bae;
+					width: 100%;
+					font-size: 25px;
+					padding-bottom: 10px;
+				}
+				i{
+					font-size: 15px;
+					float: left;
+					padding: 1px 5px 0 10px;
+					line-height: 0;
+				}
+				.p3{
+					float: left;
+					color: #666;
+					line-height: 0;
+					font-size: 10px;
+				}
+				.p3-1{
+					color: #666;
+					line-height: 0;
+					font-size: 10px;
+				}
+				.p4{
+					width: 100%;
+					font-size: 14px;
+				}
+				button{
+					margin-top: -8px;
+				}
+			}
+		}
+	}
+	.bao2{
+		float: left;
+		// background: #aaa;
+		height: 800px;
+		h2{
+			margin-top: 10px;
+			font-family: "times new roman";
+		}
+		iframe{
+			width: 80%;
+			margin-left: 5%;
+			text-align: center;
+		}
+		h3{
+			font-family: "times new roman";
+		}
+		.bao2-1{
+			// background: white;
+			height: 140px;
+			border-radius: 10px;
+			img{
+				width: 100%;
+				margin-left: %;
+				height: 140px;
+				border-radius: 10px;
+			}
+			.bao2-2{
+				background: white;
+				position: absolute;
+				top: 0;
+				left: 3.6%;
+				width: 80%;
+				height: 100%;
+				background: linear-gradient(to right, rgba(196,11,174,0.8), rgba(0,0,0,0));
+				border-radius: 10px;
+			}
+			h1{
+				line-height: 0;
+			}
+		}
+		.slide1{
+			width: 100%;
+			height: 274px;
+			border-radius: 21px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+			img{
+				border-radius: 20px;
+				display: block;
+				height: 275px;
+			}
+			p{
+				font-size: 16px;
+				text-align: left;
+				color: white;
+			}
+			.p1{
+				color: black;
+				font-size: 16px;
+			}
+			.h5{
+				color: black;
+			}
+			.pre{
+				position: absolute;
+				top: -14%;
+				left: 525%;
+				background: #777;
+				width: 25px;
+				height: 25px;
+				i{
+					font-size: 25px;
+				}
+			}
+			.next{
+				position: absolute;
+				top: -14%;
+				background: #777;
+				width: 25px;
+				height: 25px;
+				i{
+					font-size: 25px;
+				}
+			}
+		}
+	}
+	// het bao2
+	// bao3
+	.bao3{
+		height: 400px;
+		// background: #999;
+		float: left;
+		.bao31{
+			float: left;
+			margin-top: 50px;
+			h1{
+				text-align: center;
+				font-family: "times new roman";
+				color: #c40bae;
+			}
+		}
+		.bao3-1{
+			float: left;
+			height: 280px;
+			// background: black;
+			img{
+				height: 200px;
+			}
+			.bao3-2{
+				border-bottom: 2px solid red;
+				// background: black;
+				height: 15%;
+			}
+			h5{
+				float: left;
+				line-height: 0;
+				color: black;
+			}
+			h6{
+				color: #c40bae;
+				line-height: 0;
+				float: 	right;
+			}
+			
+		}
+		.pre{
+			position: absolute;
+			top: -14%;
+			left: 583%;
+			background: #777;
+			width: 30px;
+			height: 30px;
+			i{
+				font-size: 30px;
+			}
+		}
+		.next{
+			position: absolute;
+			top: -14%;
+			background: #777;
+			width: 30px;
+			height: 30px;
+			i{
+				font-size: 30px;
+			}
+		}
+	}
+	// het bao3
+
+
+}
+
+@media screen and (max-width: 1205px){
+	
+}
+// end code cua phat
+
+// code cua dieu
+
+.dieu1{
+	float: left;
+	height: 630px;
+	background: green;
+	font-family: "Times New Roman", Times, serif;
+	background-image: url('photo/flower1.jpeg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	.dieu1-1{
+		float: left;
+		height: 360px;
+		background: rgba(5, 171, 224, 0.2);
+		h1{
+			color: white;
+			padding-top: 12%;
+			text-shadow: 1px 0px 18px #444;
+		}
+	}
+	.dieu1-2{
+		float: left;
+		height: 270px;
+		background: rgba(255, 137, 233, 0.2);
+		h3{
+			padding-top: 3%;
+			color: white;
+			text-shadow: 1px 0px 18px #444;
+		}
+		h5{
+			color: white;
+			text-shadow: 1px 0px 18px #444;
+		}
+	}
+}
+.dieu2{
+	float: left;
+	height: 550px;
+	font-family: "Times New Roman", Times, serif;
+	background: rgba(242, 242, 242, 0.2);
+	h2{
+		padding-top: 3%;
+		color: #444;
+	}
+	.dieu2-21{
+		height: 450px;
+		margin-top: 2%;
+		// background: red;
+		.dieu2-22{
+			height: 450px;
+			// background: yellow;
+			.dieu-pic1{
+				height: 130px;
+				background: green;
+				border-radius: 50%;
+				// border: 1px solid red;
+				margin-top: 5%;
+				margin-bottom: 24%;
+				img{
+					width: 100%;
+					height: 130px;
+					border-radius: 50%;
+					border: 1px solid red;
+				}
+			}
+			h6{
+				color: #444;
+				opacity: 0.5;
+				border-bottom: 1px solid #444;
+				// padding-bottom: 7%;
+			}
+			ul{
+				margin-top: 12%;
+				i{
+					margin-left: 4%;
+				}
+			}
+			button{
+				
+				margin-left: 24%;
+				opacity: 0.8;
+			}
+		}
+	}
+	.prev{
+		position: absolute;
+		top: -10%;
+		left: 550%;
+		background: #777;
+		width: 42px;
+		height: 42px;
+		border-radius: 7px;
+		i{
+			font-size: 42px;
+		}
+	}
+	.next{
+		position: absolute;
+		top: -10%;
+		left: 12%;
+		background: #777;
+		width: 42px;
+		height: 42px;
+		border-radius: 7px;
+		i{
+			font-size: 42px;
+		}
+	}
+}
+
+// end code cua dieu
+
+
+
+// end code cua bao
+
