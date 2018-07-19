@@ -1,15 +1,3 @@
-// code cua quang
-@media screen and (max-width: 480px){
-	
-}
-@media screen and (max-width: 750px){
-	
-}
-@media screen and (max-width: 1205px){
-	
-}
-// end code cua quang
-
 
 // code cua bao
 @media screen and (max-width: 480px){
@@ -18,33 +6,229 @@
 @media screen and (max-width: 750px){
 	
 }
-@media screen and (max-width: 1205px){
+@media screen and (max-width: 1024px){
 	
+}
+.bao{
+	height: 1200px;
+	// background: #999;
+	.bao1{
+		float: left;
+		// background: #666;
+		height: 800px;
+		h2{
+			margin-top: 10px;
+			font-family: "times new roman";
+		}
+		.bao1-1{
+			float: left;
+			height: 180px;
+			// background: #888;
+			margin-top: 10px;
+			border-bottom: 1px solid #666666;
+			.bao1-2{
+				height: 170px;
+				float: left;
+				// background: #ccc;
+				img{
+					width: 100%;
+					height: 170px;
+				}
+				.p1{
+					font-size: 30px;
+					padding: 0;
+					margin: 0;
+					width: 100%;
+					text-align: center;
+				}
+				.p2{
+					width: 60%;
+					text-align: center;
+					margin-left: 20%;
+					border-bottom: 2px solid red;
+				}
+				h2{
+					font-family: "times new roman";
+					color: #c40bae;
+					width: 100%;
+					font-size: 25px;
+					padding-bottom: 10px;
+				}
+				i{
+					font-size: 15px;
+					float: left;
+					padding: 1px 5px 0 10px;
+					line-height: 0;
+				}
+				.p3{
+					float: left;
+					color: #666;
+					line-height: 0;
+					font-size: 10px;
+				}
+				.p3-1{
+					color: #666;
+					line-height: 0;
+					font-size: 10px;
+				}
+				.p4{
+					width: 100%;
+					font-size: 14px;
+				}
+				button{
+					margin-top: -8px;
+				}
+			}
+		}
+	}
+	.bao2{
+		float: left;
+		// background: #aaa;
+		height: 800px;
+		h2{
+			margin-top: 10px;
+			font-family: "times new roman";
+		}
+		iframe{
+			width: 80%;
+			margin-left: 5%;
+			text-align: center;
+		}
+		h3{
+			font-family: "times new roman";
+		}
+		.bao2-1{
+			// background: white;
+			height: 140px;
+			border-radius: 10px;
+			img{
+				width: 100%;
+				margin-left: %;
+				height: 140px;
+				border-radius: 10px;
+			}
+			.bao2-2{
+				background: white;
+				position: absolute;
+				top: 0;
+				left: 3.6%;
+				width: 80%;
+				height: 100%;
+				background: linear-gradient(to right, rgba(196,11,174,0.8), rgba(0,0,0,0));
+				border-radius: 10px;
+			}
+			h1{
+				line-height: 0;
+			}
+		}
+		.slide1{
+			width: 100%;
+			height: 274px;
+			border-radius: 21px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+			img{
+				border-radius: 20px;
+				display: block;
+				height: 275px;
+			}
+			p{
+				font-size: 16px;
+				text-align: left;
+				color: white;
+			}
+			.p1{
+				color: black;
+				font-size: 16px;
+			}
+			.h5{
+				color: black;
+			}
+			.pre{
+				position: absolute;
+				top: -14%;
+				left: 525%;
+				background: #777;
+				width: 25px;
+				height: 25px;
+				i{
+					font-size: 25px;
+				}
+			}
+			.next{
+				position: absolute;
+				top: -14%;
+				background: #777;
+				width: 25px;
+				height: 25px;
+				i{
+					font-size: 25px;
+				}
+			}
+		}
+	}
+	// het bao2
+	// bao3
+	.bao3{
+		height: 400px;
+		// background: #999;
+		float: left;
+		.bao31{
+			float: left;
+			margin-top: 50px;
+			h1{
+				text-align: center;
+				font-family: "times new roman";
+				color: #c40bae;
+			}
+		}
+		.bao3-1{
+			float: left;
+			height: 280px;
+			// background: black;
+			img{
+				height: 200px;
+			}
+			.bao3-2{
+				border-bottom: 2px solid red;
+				// background: black;
+				height: 15%;
+			}
+			h5{
+				float: left;
+				line-height: 0;
+				color: black;
+			}
+			h6{
+				color: #c40bae;
+				line-height: 0;
+				float: 	right;
+			}
+			
+		}
+		.pre{
+			position: absolute;
+			top: -14%;
+			left: 583%;
+			background: #777;
+			width: 30px;
+			height: 30px;
+			i{
+				font-size: 30px;
+			}
+		}
+		.next{
+			position: absolute;
+			top: -14%;
+			background: #777;
+			width: 30px;
+			height: 30px;
+			i{
+				font-size: 30px;
+			}
+		}
+	}
+	// het bao3
+
 }
 // end code cua bao
-
-
-// code cua dieu
-@media screen and (max-width: 480px){
-	
-}
-@media screen and (max-width: 750px){
-	
-}
-@media screen and (max-width: 1205px){
-	
-}
-// end code cua dieu
-
-
-// code cua phat
-@media screen and (max-width: 480px){
-	
-}
-@media screen and (max-width: 750px){
-	
-}
-@media screen and (max-width: 1205px){
-	
-}
-// end code cua phat
