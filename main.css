@@ -1,0 +1,301 @@
+.quang .quang1 .menuquang {
+  width: auto;
+  background-color: rgba(99, 158, 219, 0.8);
+  height: 35px; }
+  .quang .quang1 .menuquang .col-sm-6 {
+    color: white; }
+    .quang .quang1 .menuquang .col-sm-6 i.fa-clock {
+      float: left;
+      padding-left: 12%;
+      margin-top: 1%; }
+    .quang .quang1 .menuquang .col-sm-6 i.fa-angle-right {
+      float: left;
+      padding-left: 4%;
+      margin-top: 1%; }
+    .quang .quang1 .menuquang .col-sm-6 span {
+      float: left;
+      margin-left: 3%;
+      margin-top: 0.4%; }
+    .quang .quang1 .menuquang .col-sm-6 p {
+      float: left;
+      padding-left: 1%;
+      margin-top: 0.5%; }
+  .quang .quang1 .menuquang .col-6 {
+    color: white; }
+    .quang .quang1 .menuquang .col-6 a {
+      text-decoration: none;
+      color: white; }
+      .quang .quang1 .menuquang .col-6 a:hover {
+        color: red; }
+    .quang .quang1 .menuquang .col-6 i.fa-envelope {
+      float: left;
+      margin-top: 1%;
+      padding-left: 12%; }
+    .quang .quang1 .menuquang .col-6 i.fa-phone {
+      float: left;
+      margin-top: 1%;
+      padding-left: 4%; }
+    .quang .quang1 .menuquang .col-6 p {
+      float: left;
+      margin-top: 0.5%;
+      padding-left: 1%; }
+    .quang .quang1 .menuquang .col-6 span {
+      float: left;
+      margin-left: 3%;
+      margin-top: 0.4%; }
+    .quang .quang1 .menuquang .col-6 i.fa-facebook-f, .quang .quang1 .menuquang .col-6 i.fa-google-plus-g, .quang .quang1 .menuquang .col-6 i.fa-twitch, .quang .quang1 .menuquang .col-6 i.fa-xing, .quang .quang1 .menuquang .col-6 i.fa-seedling {
+      margin-left: 2%;
+      margin-top: 1%; }
+
+.quang .menuquang1 {
+  margin-top: 2.5%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8); }
+  .quang .menuquang1 a.navbar-brand {
+    width: 30%;
+    margin-left: 5%; }
+    .quang .menuquang1 a.navbar-brand h3 {
+      font-weight: 700; }
+      .quang .menuquang1 a.navbar-brand h3 span {
+        color: #649fd6; }
+    .quang .menuquang1 a.navbar-brand small {
+      margin-top: 3%;
+      padding-left: 1%;
+      font-weight: 200; }
+  .quang .menuquang1 .collapse {
+    width: 70%; }
+    .quang .menuquang1 .collapse ul.navbar-nav {
+      margin-left: 8%; }
+      .quang .menuquang1 .collapse ul.navbar-nav li.nav-item a.nav-link {
+        width: 100%;
+        margin-left: 20px;
+        font-weight: 500; }
+
+.quang .box4quang {
+  background-image: url(photo/bg-1.jpg);
+  background-size: 100% 1011px;
+  width: 100%;
+  height: 1011px; }
+  .quang .box4quang h1.klo {
+    width: 20%;
+    padding-top: 17%;
+    margin-left: 13%;
+    font-weight: 600;
+    color: gray;
+    border-bottom-style: double;
+    text-align: center; }
+  .quang .box4quang h1.display-1 {
+    padding-left: 2%;
+    font-weight: 600;
+    color: #f47caf; }
+    .quang .box4quang h1.display-1 span {
+      color: #639edb; }
+  .quang .box4quang p {
+    margin-left: 12%;
+    font-weight: 500;
+    color: #91a6b9; }
+  .quang .box4quang button {
+    background: none;
+    border: 1px solid #639edb;
+    color: white;
+    font-weight: 800;
+    margin-left: 14%;
+    margin-bottom: 15%; }
+  .quang .box4quang .col-sm-4 {
+    width: 100%;
+    height: 330px;
+    background-color: rgba(240, 122, 174, 0.8); }
+    .quang .box4quang .col-sm-4 .box4q1 {
+      width: 90%;
+      height: 90%;
+      margin: 4% 5% 5% 5%;
+      color: white; }
+      .quang .box4quang .col-sm-4 .box4q1 i.fa-android {
+        margin-left: 45%;
+        margin-top: 9%; }
+      .quang .box4quang .col-sm-4 .box4q1 h3 {
+        margin-top: 2%;
+        text-align: center; }
+      .quang .box4quang .col-sm-4 .box4q1 p {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        color: white; }
+      .quang .box4quang .col-sm-4 .box4q1 a {
+        text-decoration: none;
+        color: white; }
+    .quang .box4quang .col-sm-4:hover .box4q1 {
+      border: 2px solid white; }
+    .quang .box4quang .col-sm-4:hover {
+      background-color: rgba(245, 132, 178, 0.5); }
+
+.quang .box5quang {
+  width: 100%;
+  height: 368px; }
+  .quang .box5quang h3 {
+    padding-top: 5%;
+    text-align: center;
+    font-weight: 400; }
+  .quang .box5quang a {
+    text-align: center; }
+
+.quang .carousel {
+  margin-top: -14%; }
+  .quang .carousel a.carousel-control-prev {
+    background-color: rgba(149, 188, 230, 0.9);
+    width: 40px;
+    height: 40px;
+    margin-top: -7%;
+    margin-left: 85%;
+    border-radius: 2px; }
+  .quang .carousel a.carousel-control-next {
+    background-color: rgba(149, 188, 230, 0.9);
+    width: 40px;
+    height: 40px;
+    margin-top: -7%;
+    margin-right: 8.5%;
+    border-radius: 2px; }
+  .quang .carousel .carousel-inner .carousel-item img.box5q1 {
+    float: left;
+    width: 25%;
+    height: 200px; }
+
+.quang .box6quang {
+  width: 100%;
+  height: 510px;
+  background: pink; }
+  .quang .box6quang h3 {
+    padding-top: 5%; }
+  .quang .box6quang .carousel {
+    margin-top: 3%; }
+    .quang .box6quang .carousel a.carousel-control-prev {
+      background-color: rgba(149, 188, 230, 0.9);
+      width: 40px;
+      height: 40px;
+      margin-top: -7.5%;
+      margin-left: 91%;
+      border-radius: 2px; }
+    .quang .box6quang .carousel a.carousel-control-next {
+      background-color: rgba(149, 188, 230, 0.9);
+      width: 40px;
+      height: 40px;
+      margin-top: -7.5%;
+      margin-right: 1.5%;
+      border-radius: 2px; }
+    .quang .box6quang .carousel .carousel-inner .carousel-item img {
+      width: 100%;
+      height: 250px; }
+    .quang .box6quang .carousel .carousel-inner .carousel-item p {
+      width: 100%;
+      height: 40px;
+      background-color: rgba(255, 255, 255, 0.3);
+      font-weight: 600;
+      line-height: 40px;
+      padding-left: 6%; }
+      .quang .box6quang .carousel .carousel-inner .carousel-item p span {
+        margin-left: 15%; }
+
+@media screen and (max-width: 480px) {
+  .quang .box4quang {
+    height: 200px; }
+    .quang .box4quang button {
+      display: none; }
+    .quang .box4quang .col-sm-4 {
+      display: none; }
+      .quang .box4quang .col-sm-4 .box4q1 {
+        display: none; }
+  .quang .box5quang {
+    display: none; }
+  .quang .carousel {
+    display: none; }
+  .quang .box6quang {
+    display: none; } }
+
+@media screen and (max-width: 750px) {
+  .quang .quang1 {
+    width: 750px; }
+    .quang .quang1 .menuquang {
+      display: none; }
+  .quang .menuquang1 {
+    width: 750px;
+    background-color: none;
+    background-color: rgba(0, 0, 0, 0.8); }
+    .quang .menuquang1 a.navbar-brand h3, .quang .menuquang1 a.navbar-brand small {
+      color: white; }
+  .quang .box4quang {
+    width: 750px;
+    height: 400px;
+    background-size: none;
+    background-image: none; }
+    .quang .box4quang h1.klo {
+      display: none; }
+    .quang .box4quang h1.display-1 {
+      margin-top: 20%;
+      width: 100%;
+      text-align: center; }
+    .quang .box4quang p {
+      margin-left: none;
+      display: none; }
+    .quang .box4quang button {
+      margin-left: none;
+      color: black; }
+    .quang .box4quang .col-sm-4 {
+      height: 200px; }
+      .quang .box4quang .col-sm-4 .box4q1 i.fa-android {
+        margin-left: 38%; }
+      .quang .box4quang .col-sm-4 .box4q1 p, .quang .box4quang .col-sm-4 .box4q1 a {
+        display: none; }
+  .quang .box5quang {
+    margin-top: -70%;
+    font-weight: 800;
+    margin-bottom: 0%;
+    padding-bottom: 0%; }
+    .quang .box5quang h3 {
+      font-weight: 800; }
+  .quang .carousel {
+    margin-top: -30%; }
+    .quang .carousel a.carousel-control-prev {
+      display: none; }
+    .quang .carousel a.carousel-control-next {
+      margin-right: 5%; }
+  .quang .box6quang {
+    height: 350px;
+    font-weight: 800; }
+    .quang .box6quang h3 {
+      font-weight: 800; }
+    .quang .box6quang .carousel .carousel-inner .carousel-item img {
+      height: 150px; }
+    .quang .box6quang .carousel .carousel-inner .carousel-item p {
+      font-size: 8px;
+      padding-left: 1%; }
+      .quang .box6quang .carousel .carousel-inner .carousel-item p span {
+        display: none; } }
+
+@media screen and (max-width: 1205px) {
+  .quang .quang1 .menuquang {
+    display: none; }
+  .quang .menuquang1 {
+    margin-top: 0%; }
+    .quang .menuquang1 .collapse ul.navbar-nav {
+      margin-left: 0%; }
+      .quang .menuquang1 .collapse ul.navbar-nav li.nav-item a.nav-link {
+        margin-left: 10px; }
+  .quang .box4quang {
+    width: 1205px;
+    height: 965px;
+    background-size: 100% 1000px; }
+    .quang .box4quang h1.klo {
+      width: 30%;
+      margin-left: 35%; }
+    .quang .box4quang h1.display-1 {
+      width: 100%;
+      text-align: center; }
+    .quang .box4quang p {
+      margin-left: 38%; }
+    .quang .box4quang button {
+      margin-left: 41%; }
+  .quang .carousel a.carousel-control-prev {
+    margin-left: 89%;
+    border-radius: 2px; }
+  .quang .carousel a.carousel-control-next {
+    margin-right: 4%; } }
