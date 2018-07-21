@@ -72,35 +72,70 @@
         font-weight: 500; }
 
 .quang .box4quang {
-  background-image: url(photo/bg-1.jpg);
+  background-image: url(photo/1.png);
   background-size: 100% 1011px;
   width: 100%;
-  height: 1011px; }
-  .quang .box4quang h1.klo {
-    width: 20%;
-    padding-top: 17%;
-    margin-left: 13%;
-    font-weight: 600;
-    color: gray;
-    border-bottom-style: double;
-    text-align: center; }
-  .quang .box4quang h1.display-1 {
-    padding-left: 2%;
-    font-weight: 600;
-    color: #f47caf; }
-    .quang .box4quang h1.display-1 span {
-      color: #639edb; }
-  .quang .box4quang p {
+  height: 1011px;
+  position: relative; }
+  .quang .box4quang .ngoaidukien {
+    width: 70%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(photo/2.png); }
+  .quang .box4quang a {
+    text-decoration: none; }
+    .quang .box4quang a h1.klo {
+      width: 20%;
+      padding-top: 17%;
+      margin-left: 13%;
+      font-weight: 600;
+      color: gray;
+      border-bottom-style: double;
+      text-align: center;
+      -webkit-transition: padding-left 0.9s;
+      -o-transition: padding-left 0.9s;
+      transition: padding-left 0.9s; }
+    .quang .box4quang a:hover h1.klo {
+      padding-left: 30px; }
+  .quang .box4quang a {
+    text-decoration: none; }
+    .quang .box4quang a h1.display-1 {
+      padding-left: 2%;
+      font-weight: 600;
+      color: #f47caf;
+      -webkit-transition: padding-left 0.9s;
+      -o-transition: padding-left 0.9s;
+      transition: padding-left 0.9s; }
+      .quang .box4quang a h1.display-1 span {
+        color: #639edb; }
+    .quang .box4quang a:hover h1.display-1 {
+      padding-left: 100px; }
+  .quang .box4quang a p {
     margin-left: 12%;
     font-weight: 500;
-    color: #91a6b9; }
-  .quang .box4quang button {
+    color: #91a6b9;
+    -webkit-transition: padding-left 0.9s;
+    -o-transition: padding-left 0.9s;
+    transition: padding-left 0.9s; }
+  .quang .box4quang a button {
     background: none;
     border: 1px solid #639edb;
-    color: white;
+    color: black;
     font-weight: 800;
     margin-left: 14%;
-    margin-bottom: 15%; }
+    margin-bottom: 15%;
+    text-align: center;
+    -webkit-transition: padding-left 0.9s;
+    -o-transition: padding-left 0.9s;
+    transition: padding-left 0.9s; }
+  .quang .box4quang a:hover p {
+    padding-left: 50px; }
+  .quang .box4quang a:hover button {
+    padding-left: 50px;
+    padding-right: 50px;
+    background: yellow; }
   .quang .box4quang .col-sm-4 {
     width: 100%;
     height: 330px;
@@ -135,7 +170,7 @@
   .quang .box5quang h3 {
     padding-top: 5%;
     text-align: center;
-    font-weight: 400; }
+    font-weight: bold; }
   .quang .box5quang a {
     text-align: center; }
 
@@ -155,7 +190,9 @@
     margin-top: -7%;
     margin-right: 8.5%;
     border-radius: 2px; }
-  .quang .carousel .carousel-inner .carousel-item img.box5q1 {
+  .quang .carousel .carousel-inner a span {
+    color: black; }
+  .quang .carousel .carousel-inner .carousel-item a img.box5q1 {
     float: left;
     width: 25%;
     height: 200px; }
@@ -163,9 +200,14 @@
 .quang .box6quang {
   width: 100%;
   height: 510px;
-  background: pink; }
+  background: -webkit-gradient(linear, left top, right top, from(#e268a3), to(#6d98dc));
+  background: -webkit-linear-gradient(left, #e268a3, #6d98dc);
+  background: -o-linear-gradient(left, #e268a3, #6d98dc);
+  background: linear-gradient(to right, #e268a3, #6d98dc); }
   .quang .box6quang h3 {
-    padding-top: 5%; }
+    padding-top: 5%;
+    font-weight: bold;
+    color: white; }
   .quang .box6quang .carousel {
     margin-top: 3%; }
     .quang .box6quang .carousel a.carousel-control-prev {
